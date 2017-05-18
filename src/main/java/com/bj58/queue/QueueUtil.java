@@ -3,8 +3,8 @@
  */
 package com.bj58.queue;
 
+import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.LinkedBlockingDeque;
 
 /**
  * @author 58
@@ -16,7 +16,7 @@ public class QueueUtil {
 	
 	static int capacity = 50; 
 
-	static BlockingQueue<Object>  queue = new LinkedBlockingDeque<Object>(QueueUtil.capacity);
+	static BlockingQueue<Object>  queue = new ArrayBlockingQueue<Object>(QueueUtil.capacity);
 	
 	
 	public static void main(String[] args) {
