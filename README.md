@@ -22,3 +22,5 @@
     插入                  offer(e)        offer(e,time,unit)      put(e)     add(e)
     移除                  poll()          poll(time,unit)         take()     remove()
     读取                  peek()          无                       无        element()
+
+    Code中是使用的阻塞方法
