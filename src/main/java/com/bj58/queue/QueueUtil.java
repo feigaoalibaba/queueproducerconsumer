@@ -16,6 +16,7 @@ public class QueueUtil {
 	
 	static int capacity = 50; 
 
+	//一个由数组结构组成的有界阻塞队列
 	static BlockingQueue<Object>  queue = new ArrayBlockingQueue<Object>(QueueUtil.capacity);
 	
 	
